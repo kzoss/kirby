@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("http://www.johnandjack.co/media/catalog/category/john_jack-productlist-banner.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
