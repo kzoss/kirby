@@ -9,17 +9,15 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;*/
-    background-color: black;
+    background: linear-gradient(black, purple);
     font-family: 'Playball', cursive;
+    height: 2000px;
+    
     
 }
 
 .kirbyheader { width: 100%;}
 
-h1 {text-align: center;
-    font-size: 100px;
-    padding-top: 10vh;
-    color: #d0bca2;}
 
 .sidenav { height: 100%;
             width: 0;
