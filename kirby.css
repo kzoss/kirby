@@ -33,6 +33,16 @@ body {
 
 .fa:hover { color: #7c00ad;}
 
+.fab, .fas { color: white;
+        font-size: 30px;
+        text-align: center;
+        padding: 5px;}
+
+.social { display: inline;
+            float: right;
+            margin-top: 5px;
+            margin-right: 2.5px;}
+
 .kirbyheader { width: 100%;}
 
 
