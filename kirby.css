@@ -6,10 +6,11 @@
 body {
     background-image: url("https://www.zachariahcrowell.com/images/Kirbyheader.jpg");
     background-position: center center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Playball', cursive;
-    height: 300px;
+    
 }
 
 h1 {text-align: center;
