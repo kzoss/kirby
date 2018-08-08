@@ -15,7 +15,7 @@ body {
 
     background-size: cover;*/
     background-color: black;
-    font-family: 'Playball', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
     
 
 }
@@ -42,11 +42,11 @@ h1 {text-align: center;
 .sidenav a { padding: 8px 8px 8px 32px;
             text-decoration: none;
             font-size: 35px;
-            color: #7c00ad;
+            color: #f1f1f1;
             display: block;
             transition: 0.3s;}
 
-.sidenav a:hover { color: #f1f1f1;}
+.sidenav a:hover { color: #7c00ad;}
 
 .sidenav .closebtn {
             position: absolute;
