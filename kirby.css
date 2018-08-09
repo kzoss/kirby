@@ -34,12 +34,14 @@ body {
 .fa:hover { color: #7c00ad;}
 
 .fab, .fas { color: white;
-        font-size: 30px;
-        text-align: center;
-        padding: 5px;}
+            font-size: 40px;
+            padding: 5px;}
+
+.fas:hover, .fab:hover { opacity: .5;}
 
 .social { display: inline;
             float: right;
+            align-items: baseline;
             margin-top: 5px;
             margin-right: 2.5px;}
 
@@ -83,4 +85,8 @@ body {
 
 @media screen and (max-width: 550px) {
     .sidenav a { font-size: 30px;}
+}
+
+@media screen and (max-width: 550px) {
+    .fab, .fas { font-size: 30px;}
 }
