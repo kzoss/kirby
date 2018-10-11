@@ -60,7 +60,7 @@ body {
             padding-top: 60px;
             opacity: .9;}
 
-.sidenav a { padding: 8px 8px 8px 32px;
+.sidenav a { padding: 4px 4px 4px 20px;
             text-decoration: none;
             font-size: 35px;
             color: #f1f1f1;
@@ -77,6 +77,43 @@ body {
             margin-left: 50px;
 }
 
+.flex-container { display: flex;
+                    justify-content: center;
+                    }
+
+.flex-container > div { background-color: grey;
+                        width: 50%;
+                        height: 440px;;
+                        margin: 10px;
+                        padding: 20px;
+                        opacity: .8;
+                        text-align: center;
+                        font-size: 35px;
+                        overflow: hidden;
+                        box-shadow: 8px 8px 10px #000000;}
+#schedule { text-align: center;}
+
+input[type=submit] {
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    opacity: .85;
+}
+
+input[type=text], [type=date] {
+    padding: 10px;
+    font-size: 15px;
+    background-color: #fbffda;
+    box-shadow: 4px 4px 10px #343434;;
+}
+
+iframe { display: block;}      
+
 
 @media screen and (max-height: 450px) {
     .sidenav { padding-top: 15px;}
@@ -84,9 +121,21 @@ body {
 }
 
 @media screen and (max-width: 550px) {
-    .sidenav a { font-size: 30px;}
+    .sidenav a { font-size: 30px;
+                    width: auto;}
 }
 
 @media screen and (max-width: 550px) {
     .fab, .fas { font-size: 30px;}
+}
+
+@media screen and (max-width: 550px) {
+    .flex-container { display: flex;
+                        flex-wrap: wrap;}
+}
+
+@media screen and (max-width: 500px) {
+    input[type=text], [type=date] {
+        padding: 5px;
+    }
 }
