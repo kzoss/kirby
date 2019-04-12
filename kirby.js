@@ -4,5 +4,6 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+
 // SOME STUFF TO TEST A GITHUB PUSH
 // ANOTHER TEST PUSH
