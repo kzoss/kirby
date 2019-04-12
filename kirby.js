@@ -1,7 +1,8 @@
 function openNav() {
-    document.getElementById("mySidenav").style.width = "25%";
+    document.getElementById("mySidenav").style.width = "30%";
 }
-
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+// SOME STUFF TO TEST A GITHUB PUSH
+// ANOTHER TEST PUSH

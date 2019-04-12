@@ -2,52 +2,34 @@
     padding: 0;
     margin: 0;
 }
-
 body {
-    /*background-image: url("https://www.zachariahcrowell.com/images/Kirbyheader.jpg");
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-
-    background-size: cover;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    height: 300px;
-
-    background-size: cover;*/
-
-    background: linear-gradient(black, #7c00ad, black);
-    font-family: 'Playball', cursive;
-    height: 2000px;
+     
+    background: -webkit-linear-gradient(to top, #734b6d,  #42275a);  
+    background: linear-gradient(to top, #734b6d,  #42275a); 
+    font-family: 'PT Sans Narrow', sans-serif;
     
-
+    
     background-color: black;
     font-family: 'PT Sans Narrow', sans-serif;
-
-    
-
+    font-size: 1.3em;
 }
-
+h1 {
+    font-weight: bold;
+}
 .fa { color: white;
         font-size: 40px;
         padding: 8px 8px 8px 32px;}
-
-.fa:hover { color: #7c00ad;}
-
+.fa:hover { color: #42275a;}
 .fab, .fas { color: white;
             font-size: 40px;
             padding: 5px;}
-
 .fas:hover, .fab:hover { opacity: .5;}
-
 .social { display: inline;
             float: right;
             align-items: baseline;
             margin-top: 5px;
             margin-right: 2.5px;}
-
 .kirbyheader { width: 100%;}
-
-
 .sidenav { height: 100%;
             width: 0;
             position: fixed;
@@ -59,16 +41,13 @@ body {
             transition: 0.5s;
             padding-top: 60px;
             opacity: .9;}
-
-.sidenav a { padding: 8px 8px 8px 32px;
+.sidenav a { padding: 4px 4px 4px 20px;
             text-decoration: none;
             font-size: 35px;
             color: #f1f1f1;
             display: block;
             transition: 0.3s;}
-
-.sidenav a:hover { color: #7c00ad;}
-
+.sidenav a:hover { color:#42275a;}
 .sidenav .closebtn {
             position: absolute;
             top: 0;
@@ -76,17 +55,48 @@ body {
             font-size: 36px;
             margin-left: 50px;
 }
-
-
+input[type=submit] {
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    opacity: .85;
+}
+input[type=text], [type=date] {
+    padding: 10px;
+    font-size: 15px;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;;
+}
+.btn {
+    margin: 0;
+    text-align: center;
+}
+iframe { display: block;}   
+footer { color: white;
+        padding: 10px;
+        text-align: center;}
 @media screen and (max-height: 450px) {
     .sidenav { padding-top: 15px;}
     .sidenav a { font-size: 18px;}
 }
-
 @media screen and (max-width: 550px) {
-    .sidenav a { font-size: 30px;}
+    .sidenav a { font-size: 30px;
+                    width: auto;}
 }
-
 @media screen and (max-width: 550px) {
-    .fab, .fas { font-size: 30px;}
+    .fab, .fas { font-size: 35px;}
 }
+@media screen and (max-width: 550px) {
+    .flex-container { display: flex;
+                        flex-wrap: wrap;}
+}
+@media screen and (max-width: 500px) {
+    input[type=text], [type=date] {
+        padding: 5px;
+    }
+} 
